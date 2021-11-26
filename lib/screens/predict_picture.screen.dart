@@ -45,8 +45,7 @@ class _PredictPictureScreenState extends State<PredictPictureScreen> {
               else if (results != null)
                 Results(results: results!)
               else
-                const Text('Selecciona una imagen',
-                    style: TextStyle(fontSize: 18))
+                const Text('Elige una imagen', style: TextStyle(fontSize: 18))
             ],
           ),
         ));
